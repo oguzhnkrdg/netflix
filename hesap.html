@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="img/nlogo.png" type="image/x-icon">
+    <style>
+        .dropdown-menu{
+            --bs-dropdown-link-active-bg: #fd0d49;
+        }
+        .header{
+            background: none;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- header başlangıç -->
+    <div class="header bg-light">
+        <nav class="navbar navbar-dark bg-black navbar-expand-lg text-white">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img style="max-width: 70px;" src="img/netflix_logo.png" alt=""></a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-netflix" aria-controls="navbar-netflix">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>   
+                <div class="collapse navbar-collapse" id="navbar-netflix">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="profiller.html">Profiller</a></li>
+                        <li class="nav-item"><a class="nav-link" href="hesap.html">Hesap</a></li>
+                        
+                    </ul>
+                    <div class="container"></div>
+                    <div class="dropdown">
+                        <button class="btn text-white dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img width="70px" src="img/smile-profil.png" alt=""></button>
+                        <ul class="dropdown-menu">
+                            <li class="text-outline-danger"><a href="hesap.html" class="dropdown-item">Profil Yönet</a></li>
+                            <li><a href="profiller.html" class="dropdown-item">Profil Değiştir</a></li>
+                            <li><a href="index.html" class="dropdown-item">Çıkış Yap</a></li>
+                        </ul>
+                    </div> 
+                      
+                </div>
+                
+            </div>
+
+        </nav>
+        
+            <div class="container text-black mt-4 mb-5">
+                <div class="row">
+                    <h1>Hesap</h1>
+                    <hr>
+                    <div class="col-6 col-sm-4">
+                        <p  class="fs-4">Üyelik ve Ödemeler</p>
+                        <button>Üyeliği İptal Et</button>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <p class="fw-bold mb-0">epostaadresi@mail.com</p>
+                        <p class="mt-0">Parola:**************</p>
+                        <p class="mt-4">Tel: +90 555 444 33 22</p>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <p class="mb-0"><a style="text-decoration: none;" href="">E-postayı Değiştir</a></p>
+                        <p class="mt-0"><a style="text-decoration: none;" href="">Parolayı Değiştir</a></p>
+                        <p class="mt-4"><a style="text-decoration: none;" href="">Telefon numarasını değiştir</a></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="fs-4">Ayarlar</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="mb-0"><a style="text-decoration: none;" href="">18+ İçerik</a></p>
+                        <p class="mt-0 mb-0"><a style="text-decoration: none;" href="">Teste Katılın</a></p>
+                        <p class="mt-0"><a style="text-decoration: none;" href="">İçerik İndirilen Cihazları Yönetin</a></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="fs-4">Profil ve Ebeveyn Kontrolleri</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="fs-5 fw-medium"><img src="img/smile-profil.png" alt="">User <a href="profiller.html"><img style="margin-left: 2rem;" width="30px" src="img/plusb.svg" alt=""></a></p>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+        <!-- header bitiş -->
+    
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p class="mb-0 mt-5 fs-6 text-white-50">Sorularınız mı var? +90 555 444 33 22 bize ulaşabilirsiniz.</p>
+                <div class="col-sm-3 col-6">
+                    <ul class="list-unstyled mt-5">
+                        <li><a class="nav-link text-white-50 fs-5" href="#">SSS</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Yatırımcı İlişkileri</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Kullanım Koşulları</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Bize Ulaşın</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <ul class="list-unstyled mt-5">
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Yardım Merkezi</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">İş İmkânları</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Gizlilik</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Hız Testi</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <ul class="list-unstyled mt-5">
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Hesap</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Hediye Kartı Kullan</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Çerez Tercihleri</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Yasal Hükümler</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-6">
+                    <ul class="list-unstyled mt-5">
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Medya Merkezi</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">İzleme Yolları</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Kurumsal Bilgiler</a></li>
+                        <li><a class="nav-link text-white-50 fs-5" href="#">Sadece Netflix'te</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="dropdown">
+                        <button class="btn text-white-50 dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img style="opacity: 0.5;" src="img/world.png" alt=""> Language</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Türkçe</a></li>
+                            <li><a href="#" class="dropdown-item">ingilizce</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="row text-center">
+                <p style="opacity: 0.5;" class="text-white-50 fw-light">2022 &copy; Netflix</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
