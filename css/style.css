@@ -39,11 +39,11 @@ img{
 }
 
 .accordion-button::after{
-    background-image: url(/netflix/img/plus.svg);
+    background-image: url(../img/plus.svg);
 }
 
 .accordion-button:not(.collapsed)::after{
-    background-image: url(/netflix/img/dash.svg);
+    background-image: url(../img/dash.svg);
 }
 
 footer ul li{
